@@ -1,10 +1,10 @@
 package java_p_member;
 
-public class regular {
-
+public class regular extends member {
+	int count = 1;
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	
 	}
 
 }
