@@ -1,4 +1,4 @@
-package java_p_member;
+/*package java_p_member;
 
 import java.util.Scanner;
 
@@ -32,17 +32,17 @@ public class ex extends member{
 		case 2 :
 			
 		case 3 :
-			/*System.out.print("\n 학생인가요? (Y/N) ");
+			System.out.print("\n 학생인가요? (Y/N) ");
 			String std=sc.next();
 			if(std=="y") {
 				super.std_yn=true;
 			} else {
 				
-			}*/
+			}
 		case 4 : 
 			}
 		}
 		
 		while(number!=0);
 	}
-}
+}*/
