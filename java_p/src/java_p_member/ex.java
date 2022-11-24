@@ -1,17 +1,35 @@
-/*package java_p_member;
+package java_p_member;
 
 import java.util.Scanner;
 
 
 public class ex extends member{
-
 	void enter() {
+		
 		System.out.println("\n--> 정기 이용 회원인가요? (Y/N)");
+	}
+	void exit() {
+		
+	}
+	void reg_buy() {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("\n 학생인가요? (Y/N) ");
+		String std=sc.next();
+		if(std=="y") {
+			std_yn=true;
+		} else {
+			
+		}
+		}
+	void reg_exit() {
+		
 	}
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in); 
 		int number=1;
+		ex user = new ex();
+		
 		System.out.println("# DMU 도서실 좌석 관리 시스템 #");
 		
 		do {System.out.println("######### 메  뉴 #########");
@@ -26,23 +44,22 @@ public class ex extends member{
 		
 		switch(number) {
 		case 1 :
-			enter();
+			user.enter();
 			break;
 			
 		case 2 :
+			user.exit();
+			break;
 			
 		case 3 :
-			System.out.print("\n 학생인가요? (Y/N) ");
-			String std=sc.next();
-			if(std=="y") {
-				super.std_yn=true;
-			} else {
-				
-			}
+			user.reg_buy();
+			break;
 		case 4 : 
+			user.reg_exit();
+			break;
 			}
 		}
 		
 		while(number!=0);
 	}
-}*/
+}
